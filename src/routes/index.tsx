@@ -1,14 +1,11 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-
-import Home from '../pages/Home/Home';
+import Tmp from './TmpPage/Tmp';
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<Home />} />
-      </Routes>
-    </BrowserRouter>
+    <div className='App'>
+      <div>메인</div>
+      <Tmp />
+    </div>
   );
 };
 
